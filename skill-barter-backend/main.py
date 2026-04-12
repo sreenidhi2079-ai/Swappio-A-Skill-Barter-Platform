@@ -15,10 +15,12 @@ from fastapi.staticfiles import StaticFiles
 import os
 
 
+from database import DB_MODE
+
 app = FastAPI(
     title="Swaaaappio — Skill Barter Platform",
     description="Professional Skills Exchange Marketplace",
-    version="1.2.0",
+    version="1.2.1",
 )
 
 # CORS configuration
@@ -36,10 +38,16 @@ async def log_requests(request, call_next):
     response = await call_next(request)
     return response
 
-# Include API routes
+# Include API routes TWICE (with and without /api) for universal compatibility
+# This ensures it works whether VITE_API_URL includes /api or not
 app.include_router(auth_router, prefix="")
+app.include_router(auth_router, prefix="/api")
+
 app.include_router(skills_router, prefix="")
+app.include_router(skills_router, prefix="/api")
+
 app.include_router(collab_router, prefix="")
+app.include_router(collab_router, prefix="/api")
 
 # Static files for project exchange
 UPLOAD_DIR = "uploads"
@@ -52,6 +60,7 @@ app.mount("/projects", StaticFiles(directory=UPLOAD_DIR), name="projects")
 def root():
     return {
         "status": "ok", 
-        "mode": "Professional (JSON Shim)",
-        "version": "1.2.0"
+        "mode": "Professional (Cloud)" if DB_MODE == "CLOUD" else "Professional (JSON Shim)",
+        "db": DB_MODE,
+        "version": "1.2.1"
     }
