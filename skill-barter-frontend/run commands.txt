@@ -1,0 +1,7 @@
+cd c:\Users\sarat\Downloads\Swaaaappio\skill-barter-backend
+uvicorn main:app --reload
+#Backend
+
+cd c:\Users\sarat\Downloads\Swaaaappio\skill-barter-frontend
+npm run dev
+#frontend

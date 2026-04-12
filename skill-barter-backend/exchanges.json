@@ -1,0 +1,22 @@
+[
+  {
+    "match_id": "69b30636b89e8c2dad391e7e-69b30666b89e8c2dad391e7f",
+    "userA_id": "69b30636b89e8c2dad391e7e",
+    "userB_id": "69b30666b89e8c2dad391e7f",
+    "status": "MATCHED",
+    "userA_training_done": false,
+    "userB_training_done": false,
+    "created_at": "2026-03-12T20:02:09.884163",
+    "_id": "549296f5-33c8-4830-8c5d-40b74fbb39e7"
+  },
+  {
+    "match_id": "5f3cb0af-87f9-4823-a386-527c71286869-831f51c2-c00d-47d5-bbd6-97ccc919ac80",
+    "userA_id": "5f3cb0af",
+    "userB_id": "87f9",
+    "status": "TRAINING_COMPLETE",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T20:06:01.425300",
+    "_id": "09a359b0-66cf-4d98-9315-58c80cc51950"
+  }
+]

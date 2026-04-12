@@ -1,0 +1,230 @@
+[
+  {
+    "_id": "94b931e1-e8e8-4f7d-88e1-f42a0cb32704",
+    "user_name": "Sreenidhi",
+    "email": "sreenidhi@gmail.com",
+    "password": "abcdefghij",
+    "created_at": "2026-03-12T20:36:02.894286"
+  },
+  {
+    "_id": "22f14d6d-2076-4a6f-bd54-042097bc03ed",
+    "user_name": "Meena",
+    "email": "meena@gmail.com",
+    "password": "meena123",
+    "created_at": "2026-03-12T20:37:15.211698"
+  },
+  {
+    "_id": "90f2e3b8-519d-40b9-8d8f-95ee100f5e53",
+    "user_name": "Sree",
+    "email": "nidhi@gmail.com",
+    "password": "sreenidhi2005",
+    "created_at": "2026-03-12T20:38:42.073278"
+  },
+  {
+    "_id": "238f0778-6f03-4a1d-a92a-7fa3beeaf7e5",
+    "user_name": "adi",
+    "email": "adithya@gmail.com",
+    "password": "adithya2011",
+    "created_at": "2026-03-12T20:50:03.704527",
+    "credits": 70
+  },
+  {
+    "_id": "552acded-2d35-4fe6-a703-b9a33b898b8c",
+    "user_name": "Dhanu",
+    "email": "dhanu@gmail.com",
+    "password": "dhanu1234",
+    "created_at": "2026-03-12T20:52:03.207811"
+  },
+  {
+    "_id": "59cedb9f-afe3-496c-8a0d-c3391ebcd0c7",
+    "user_name": "alice",
+    "email": "alice@gmail.com",
+    "password": "12345678",
+    "credits": 50,
+    "created_at": "2026-03-12T21:00:58.891805"
+  },
+  {
+    "_id": "77892eb9-2d42-4bda-89a2-8948e6199d0b",
+    "user_name": "meena",
+    "email": "pgmeena@gmail.com",
+    "password": "12345678",
+    "credits": 50,
+    "created_at": "2026-03-12T21:05:27.767384"
+  },
+  {
+    "_id": "0a538c6a-f130-4d42-a691-9c34d4db5b81",
+    "user_name": "dhanu",
+    "email": "pgdhanu@gmail.com",
+    "password": "12345678",
+    "credits": 50,
+    "created_at": "2026-03-12T21:06:55.117716"
+  },
+  {
+    "_id": "eddc873e-29fd-4824-a1de-507aece5e2c8",
+    "user_name": "meena",
+    "email": "mee@gmail.com",
+    "password": "12345678",
+    "credits": 50,
+    "created_at": "2026-03-12T21:18:44.804424"
+  },
+  {
+    "_id": "0d2a7233-d586-423f-b7ca-c0eaf9b3c25d",
+    "user_name": "arava",
+    "email": "arava@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-12T21:22:32.942629"
+  },
+  {
+    "_id": "fead503a-cc13-4997-aa2c-a14f93527a0f",
+    "user_name": "shruthi",
+    "email": "shruthi@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-12T21:23:53.404173"
+  },
+  {
+    "_id": "1db78ba0-0a42-42d9-829b-19c7e6835917",
+    "user_name": "min",
+    "email": "min@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-12T21:42:22.492932"
+  },
+  {
+    "_id": "94ac0e99-2489-4ae0-89b9-c931e81101ed",
+    "user_name": "max",
+    "email": "max@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-12T21:43:49.487424"
+  },
+  {
+    "_id": "f74f9bd1-25c4-4610-a638-ac1c1b22496f",
+    "user_name": "Sree",
+    "email": "sree@gmail.com",
+    "password": "12345678",
+    "credits": 50,
+    "created_at": "2026-03-12T23:38:09.300717"
+  },
+  {
+    "_id": "ddc6f256-6a0f-4e4e-870f-41e4c097615c",
+    "user_name": "sonu",
+    "email": "sonu@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-13T00:07:26.700015"
+  },
+  {
+    "_id": "3bcd1677-05c5-4594-8a2d-527967f4b1e5",
+    "user_name": "ram",
+    "email": "ram@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-13T00:10:22.412090"
+  },
+  {
+    "_id": "10f856f2-51c8-4018-9b68-4a637c591919",
+    "user_name": "shyam",
+    "email": "shyam@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-13T00:11:29.402384"
+  },
+  {
+    "_id": "b8933c54-f8d9-4129-a36c-9b4748be9e75",
+    "user_name": "adi",
+    "email": "mvk@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-13T15:27:39.706749"
+  },
+  {
+    "_id": "4bd1673c-d9ab-4cec-81a1-0d45862c1b4d",
+    "user_name": "omi",
+    "email": "omi@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-13T15:29:19.749287"
+  },
+  {
+    "_id": "e7825f9b-8960-4a7e-9fbe-fc79ab8b7c1e",
+    "user_name": "Lavanya",
+    "email": "lavanya@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-13T17:44:45.297302"
+  },
+  {
+    "_id": "2f0004b2-f32e-4f13-9c95-8a7d983c5c4b",
+    "user_name": "Sarathi",
+    "email": "sar@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-13T17:46:43.492397"
+  },
+  {
+    "_id": "6712e797-d61e-41a4-9cd9-90f5e67c0768",
+    "user_name": "gopinath ",
+    "email": "gopi@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-14T07:17:19.275929"
+  },
+  {
+    "_id": "4d54a468-4475-4969-95a5-a0dc5054fc0f",
+    "user_name": "sunitha",
+    "email": "sun@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-14T07:19:35.982024"
+  },
+  {
+    "_id": "045d4694-acdc-4100-bc03-bc9fa8fa7dc1",
+    "user_name": "Vijaya Sarathi",
+    "email": "vijayasarathi@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-03-17T15:34:49.049248"
+  },
+  {
+    "_id": "d351aa70-5cf0-489c-8b69-142f07a66e9f",
+    "user_name": "lavanyadaruri",
+    "email": "lav@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-03-17T15:36:48.264752"
+  },
+  {
+    "_id": "4d31e986-87bf-499a-ae8d-b6bf7f05daa9",
+    "user_name": "yami",
+    "email": "yami@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-04-12T15:04:03.721487"
+  },
+  {
+    "_id": "134ea084-45bb-4ffc-896c-462f2eb1ec21",
+    "user_name": "adi",
+    "email": "adi@gmail.com",
+    "password": "123456",
+    "credits": 60,
+    "created_at": "2026-04-12T15:05:56.890452"
+  },
+  {
+    "_id": "100518d2-132f-4121-9eae-920a236d5c96",
+    "user_name": "bhanu",
+    "email": "bhanu@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-04-12T18:06:13.204118"
+  },
+  {
+    "_id": "f2afc8d9-f8c5-41f3-b7fd-555ee8e0341b",
+    "user_name": "varun",
+    "email": "var@gmail.com",
+    "password": "123456",
+    "credits": 50,
+    "created_at": "2026-04-12T18:07:43.590075"
+  }
+]

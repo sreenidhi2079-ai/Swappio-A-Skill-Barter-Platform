@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-dotenv
+pydantic[email]
+email-validator
+python-multipart
+dnspython

@@ -1,0 +1,132 @@
+[
+  {
+    "match_id": "7b63f2b0-93ed-4602-a6ed-96682b1c6e45-eaf12352-207f-4b2e-aa39-1fa84d802617",
+    "userA_id": "7b63f2b0",
+    "userB_id": "93ed",
+    "status": "TRAINING_COMPLETE",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T20:39:40.124577",
+    "_id": "3836ec96-0df5-4225-b7bb-512a49312679"
+  },
+  {
+    "match_id": "bfd77641-c930-4a7e-9471-f782b088d9f0-feafb733-fec6-425d-a332-fb26e1ba3f51",
+    "userA_id": "bfd77641",
+    "userB_id": "c930",
+    "status": "TRAINING_COMPLETE",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T20:52:58.257688",
+    "_id": "000c6df3-a2b8-426f-bed7-d56998a7ebaa"
+  },
+  {
+    "match_id": "09e0ebbb-937f-47d9-abeb-3448e262ad3c-feafb733-fec6-425d-a332-fb26e1ba3f51",
+    "userA_id": "09e0ebbb",
+    "userB_id": "937f",
+    "status": "MATCHED",
+    "userA_training_done": true,
+    "userB_training_done": false,
+    "created_at": "2026-03-12T21:02:47.500492",
+    "_id": "6db71f4d-5cfb-4123-9a7e-bf1bdec1060b"
+  },
+  {
+    "match_id": "1c23043e-1e3d-4348-a626-1381343d4373-84c03b44-3a2c-4fca-b087-25ea366e9730",
+    "userA_id": "1c23043e",
+    "userB_id": "1e3d",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T21:07:57.433369",
+    "_id": "ad13acee-244e-480a-add4-d60467fc2f14"
+  },
+  {
+    "match_id": "5eec5bd0-10e1-44a1-845a-dcec30103cff-c4355b7c-cffc-49b1-85fa-a28261ddb6fb",
+    "userA_id": "5eec5bd0",
+    "userB_id": "10e1",
+    "status": "MATCHED",
+    "userA_training_done": true,
+    "userB_training_done": false,
+    "created_at": "2026-03-12T21:20:04.680996",
+    "_id": "9ac9c6f7-2281-41bf-badc-b835210d0dc6"
+  },
+  {
+    "match_id": "863f5d46-a6c8-4c14-97b2-8d1d1863ae5b-92874a36-10d0-42ee-8150-0d5e77e9556a",
+    "userA_id": "863f5d46",
+    "userB_id": "a6c8",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T21:24:48.989427",
+    "_id": "37824c20-3418-4aee-b72b-803e7955bd70"
+  },
+  {
+    "match_id": "0135bb54-876e-4351-a84d-c651b41550aa-024be497-ce8a-4919-80d1-65bd04fac5a1",
+    "userA_id": "0135bb54",
+    "userB_id": "876e",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-12T21:44:49.451484",
+    "_id": "1e00500d-bfeb-43a9-aea1-1e4e3c392231"
+  },
+  {
+    "match_id": "98bae6f1-09fa-4a1e-a081-6f56a81c0d86-eb110963-4095-4098-9a45-ffe780c12e68",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-13T00:12:27.916793",
+    "_id": "f3220806-6af1-4db8-a33d-92c922e1a7b8"
+  },
+  {
+    "match_id": "123c7f80-c38f-499a-9b95-913b3b41a74e-6597ec17-0d39-4411-9553-d35884d7a10e",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-13T15:30:28.019701",
+    "_id": "45157e4a-d9b2-476e-b971-cb9e5a494824"
+  },
+  {
+    "match_id": "d8872d93-6163-4f60-bdaf-0945acd52030-e69fb31b-7d57-409f-827d-55bf353a154e",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-13T17:47:37.898749",
+    "_id": "4efe2d97-e501-4a5c-9dda-ba195bc3f46f"
+  },
+  {
+    "match_id": "30bbe6bb-89a7-43c9-b66c-d0f4ae66450f-c656a5a8-6a46-4268-9384-47c1b3a43871",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-14T07:20:33.106794",
+    "_id": "7feb0292-8487-465e-9ceb-41b82aea4bfa"
+  },
+  {
+    "match_id": "8f4a1068-c967-4478-b97d-d6cdb7110dea-c8f4f180-1e53-4283-9f5d-c0c09441081f",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-03-17T15:37:41.777143",
+    "_id": "ddc173a9-56e5-4dc8-8be1-928224aff426"
+  },
+  {
+    "match_id": "6ba5d78c-0c1c-4d1c-8d7f-c1d3cebbc565-dad82440-64eb-406b-934c-5c349192c3c6",
+    "userA_id": "Partner A",
+    "userB_id": "Partner B",
+    "status": "COMPLETED",
+    "userA_training_done": true,
+    "userB_training_done": true,
+    "created_at": "2026-04-12T15:06:33.282223",
+    "_id": "db943348-1e1a-4004-b467-ba129a398841"
+  }
+]
