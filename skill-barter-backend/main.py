@@ -37,9 +37,9 @@ async def log_requests(request, call_next):
     return response
 
 # Include API routes
-app.include_router(auth_router, prefix="/api")
-app.include_router(skills_router, prefix="/api")
-app.include_router(collab_router, prefix="/api")
+app.include_router(auth_router, prefix="")
+app.include_router(skills_router, prefix="")
+app.include_router(collab_router, prefix="")
 
 # Static files for project exchange
 UPLOAD_DIR = "uploads"

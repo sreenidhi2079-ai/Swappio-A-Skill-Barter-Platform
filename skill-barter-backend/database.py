@@ -7,7 +7,7 @@ from datetime import datetime
 # DATABASE ADAPTER: Local JSON vs. Cloud MongoDB
 # ─────────────────────────────────────────────
 
-MONGODB_URL = os.getenv("MONGODB_URL")
+MONGODB_URL = os.getenv("MONGODB_URL") or os.getenv("MONGO_URI")
 
 if MONGODB_URL:
     try:
