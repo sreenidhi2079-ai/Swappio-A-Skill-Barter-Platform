@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import OfferSkill from './pages/OfferSkill';
-import RequestSkill from './pages/RequestSkill';
 import BrowseSkills from './pages/BrowseSkills';
 import SearchSkills from './pages/SearchSkills';
 import SkillMatches from './pages/SkillMatches';
@@ -26,7 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/offer" element={<PrivateRoute><OfferSkill /></PrivateRoute>} />
-            <Route path="/request" element={<PrivateRoute><RequestSkill /></PrivateRoute>} />
             <Route path="/browse" element={<BrowseSkills />} />
             <Route path="/search" element={<SearchSkills />} />
             <Route path="/matches" element={<PrivateRoute><SkillMatches /></PrivateRoute>} />
