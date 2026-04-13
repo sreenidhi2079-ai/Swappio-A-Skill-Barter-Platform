@@ -67,7 +67,7 @@ const Navbar = () => {
   const links = [
     { name: 'Browse', path: '/browse' },
     { name: 'Matches', path: '/matches' },
-    { name: 'Offer', path: '/offer' },
+    { name: 'Offer/Request', path: '/offer' },
   ];
 
   return (
