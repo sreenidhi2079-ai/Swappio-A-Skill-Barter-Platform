@@ -185,9 +185,21 @@ def get_skill_matches(user_name: str = Query(None, description="Optional user na
 def delete_skill(skill_id: str):
     """
     Delete a skill listing by its ID.
-    Returns a confirmation message on success.
+    Supports both MongoDB ObjectId and UUID strings for universal compatibility.
     """
-    result = skills_collection.delete_one({"_id": skill_id})
+    try:
+        from bson import ObjectId
+        query_id = ObjectId(skill_id) if ObjectId.is_valid(skill_id) else skill_id
+    except:
+        query_id = skill_id
+
+    # Try deleting by the most likely ID format first
+    result = skills_collection.delete_one({"_id": query_id})
+    
+    # If not found and we used an ObjectId, try one more time with the raw string
+    if result.deleted_count == 0 and query_id != skill_id:
+        result = skills_collection.delete_one({"_id": skill_id})
+
     if result.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Skill listing not found")
 
