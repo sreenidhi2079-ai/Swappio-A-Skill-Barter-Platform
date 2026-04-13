@@ -11,7 +11,7 @@ const api = axios.create({
 });
 
 export const getWsUrl = (endpoint) => {
-  const base = import.meta.env.VITE_API_URL || '/api';
+  const base = import.meta.env.VITE_API_URL || 'https://swappio-a-skill-barter-platform.onrender.com';
   if (base.startsWith('http')) {
     return base.replace(/^http/, 'ws') + endpoint;
   }
